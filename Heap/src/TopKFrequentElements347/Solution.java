@@ -13,10 +13,7 @@ class Solution {
         @Override
         public int compare(Pair<Integer,Integer> pair1, Pair<Integer,Integer> pair2) {
             //优先按照key,也就是频率来比较
-            if (pair1.getKey()!=pair2.getKey()){
-                return pair1.getKey()-pair2.getKey();
-            }
-            return pair1.getValue()-pair2.getValue();
+            return pair1.getKey()-pair2.getKey();
         }
     }
 
